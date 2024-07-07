@@ -1,0 +1,132 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 16px 50px 16px 50px;
+  justify-content: space-between;
+}
+
+.mobile-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  width: 100%;
+  border-radius: 300px;
+  background-color: #f9f9f9;
+  display: none;
+  margin-bottom: 2rem;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.mobile-search input {
+  border: none;
+  height: 35px;
+  background-color: #f9f9f9;
+  width: 250px;
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+.mobile-search-icon {
+  width: 24px;
+  height: 20px;
+  font-weight: 400;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.red-box {
+  width: 100%;
+  background-color: #e8394b;
+  text-align: center;
+  height: 50px;
+}
+
+.red-box p {
+  color: #ffffff;
+  padding-top: 15px;
+  line-height: 18.2px;
+  size: 14px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  border: none;
+  width: 496px;
+  border-radius: 300px;
+  background-color: #f9f9f9;
+}
+
+.search input {
+  border: none;
+  height: 48px;
+  background-color: #f9f9f9;
+  margin-left: 1rem;
+  width: 320px;
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 21px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 19px;
+  font-weight: 400;
+  margin-left: 2rem;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.box img {
+  padding-right: 18px;
+}
+
+.bar-menu {
+  display: none;
+  size: 15px;
+}
+
+@media screen and (max-width: 750px) {
+  .bar-menu {
+    display: block;
+  }
+  .red-box {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 24px 20px 24px 20px;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .search {
+    display: none;
+  }
+
+  .mobile-search {
+    display: block;
+  }
+
+  .search-icon {
+    width: 24px;
+    height: 24px;
+    font-weight: 400;
+    margin-left: 1rem;
+  }
+
+  .box p {
+    display: none;
+  }
+}
