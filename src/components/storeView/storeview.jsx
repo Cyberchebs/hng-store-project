@@ -8,9 +8,6 @@ const Storeview = () => {
     <div>
       <div>
         <ul>
-          <li>
-            <a href="">Funiture</a>
-          </li>
           <li className="shop">
             <a href="">Shop</a>
           </li>
