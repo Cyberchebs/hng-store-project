@@ -52,7 +52,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 250px;
+    height: 900px;
     border: 1px 0px 0px 1px;
     padding: 40px, 16px, 40px, 16px;
     background-color: #fffcf0;
@@ -60,7 +60,9 @@
 
   .order {
     width: 80%;
-    height: 95;
+    height: 90%;
+    padding-top: 1rem;
+    padding-right: 1rem;
   }
 
   .order h3 {
@@ -73,7 +75,8 @@
     width: 100%;
     height: 56px;
     display: flex;
-    padding-left: 1.8rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
   }
 
   .subscribe button {
