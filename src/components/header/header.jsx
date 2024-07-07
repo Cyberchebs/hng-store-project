@@ -28,8 +28,8 @@ const Header = ({ click }) => {
             </svg>
           </div>
           <div className="box">
-            <img src="/src/assets/Property 1=Variant2 (1).png" alt="" />
-            <img src="/src/assets/Property 1=Variant2.png" />
+            <img src="/assets/Property 1=Variant2 (1).png" alt="" />
+            <img src="/assets/Property 1=Variant2.png" />
           </div>
         </div>
         <div className="search-flex">
