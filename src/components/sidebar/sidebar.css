@@ -1,0 +1,40 @@
+.sidebar {
+  height: 100%;
+  width: 70%;
+  background: #ffffff;
+  transform: translateX();
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-100%);
+  transition: all 0.4s ease-in-out;
+  padding: 60px 20px 60px 20px;
+}
+
+.collapse {
+  transform: translatex(0%);
+}
+
+.xx {
+  margin-left: 90%;
+  width: 35px;
+  height: 35px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 300px;
+  padding-top: 1rem;
+}
+.links h3 a {
+  color: black;
+  size: 14px;
+  padding-top: 3rem;
+  font-weight: 400;
+}
+
+.links h3:hover {
+  width: 100%;
+}

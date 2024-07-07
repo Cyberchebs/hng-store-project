@@ -15,20 +15,10 @@ const Storeview = () => {
             <a href="">Shop</a>
           </li>
           <li>
-            <a href="">Blog</a>
+            <a href="">cartpage</a>
           </li>
           <li>
-            <a href="">Contact Us</a>
-          </li>
-          <li>
-            {" "}
-            <a href="">Limited Edition</a>
-          </li>
-          <li>
-            <a href="">Designers</a>
-          </li>
-          <li>
-            <a href="">About Us</a>
+            <a href="">checkout</a>
           </li>
         </ul>
       </div>

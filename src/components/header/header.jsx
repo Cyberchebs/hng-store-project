@@ -1,11 +1,9 @@
-import { useState } from "react";
 import "./header.css";
 import { CiSearch } from "react-icons/ci";
 import { FaTimes } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
 
-const Header = () => {
-  const [toggleMenu, setToggleMenu] = useState(false);
+const Header = ({ click }) => {
   return (
     <div>
       <div className="red-box">
@@ -15,7 +13,7 @@ const Header = () => {
       <nav className="mobile-navbar">
         <div className="top-bar">
           <div className="head-bar">
-            <FaBars />
+            <FaBars onClick={click} />
             <svg
               width="87"
               height="24"
