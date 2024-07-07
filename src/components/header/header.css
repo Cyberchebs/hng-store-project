@@ -112,9 +112,9 @@
   .mobile-search {
     display: flex;
     align-items: center;
-    width: 300px;
+    width: 334px;
     padding: 8px, 16px, 8px, 16px;
-    height: 30px;
+    height: 36px;
     background-color: #f9f9f9;
     padding: 2px 4px;
     border-radius: 600px;
@@ -123,17 +123,15 @@
 
   .mobile-search input {
     border: none;
-    width: 70%;
-    margin-left: 0.5rem;
+    width: 270px;
     background: #f9f9f9;
     line-height: 16px;
-    height: 90%;
-    padding-top: 5px;
+    height: 16px;
+    font-size: 12px;
   }
   .mobile-search-icon {
     width: 20px;
     height: 20px;
-    padding-top: 4px;
   }
 
   .head-bar {
@@ -168,6 +166,7 @@
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
+    padding-top: 1rem;
   }
 
   .red-box {
@@ -178,10 +177,6 @@
 
   .search {
     display: none;
-  }
-
-  .mobile-search {
-    display: block;
   }
 
   .search-icon {
