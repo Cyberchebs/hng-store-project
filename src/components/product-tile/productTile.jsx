@@ -4,8 +4,9 @@ import "./producttile.css";
 const ProductTile = ({ data }) => {
   return (
     <div className="grid-box">
-      <div>
+      <div className="image-box">
         <img src={data.image} alt="" />
+        <div className="overlay"></div>
       </div>
       <div className="description">
         <p>{data.description}</p>

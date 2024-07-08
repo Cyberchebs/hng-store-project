@@ -1,15 +1,36 @@
 .grid-box {
-  width: 100%;
   height: 384px;
-  padding-left: 20px;
+  cursor: pointer;
 }
 
-.grid-box div img {
-  height: 288px;
+.grid-box:hover .overlay {
+  opacity: 1;
+}
+
+.grid-box:hover .description :nth-child(1) {
+  opacity: 1;
+  color: #747474;
+}
+
+.image-box {
   width: 100%;
-  padding-right: 16px;
-  object-fit: cover;
-  border-radius: 4px;
+  height: 288px;
+  position: relative;
+}
+
+.image-box img {
+  width: 100%;
+}
+
+.image-box .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.15); /* Dark overlay */
+  opacity: 0;
+  transition: all 0.3s ease;
 }
 
 .description {

@@ -37,11 +37,12 @@ ul li a:hover {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-  grid-template-rows: repeat(auto-fit, minmax(200px, auto));
-  grid-gap: 2rem;
-  align-items: center;
-  margin: 2rem;
+  justify-content: center;
+  grid-template-columns: repeat(4, 257.75px);
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  grid-template-rows: repeat(auto-fit, minmax(200px, auto)); */
+  grid-column-gap: 12px;
+  grid-row-gap: 52px;
 }
 
 .container {
