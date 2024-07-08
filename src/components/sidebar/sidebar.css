@@ -9,6 +9,7 @@
   transform: translate(-100%);
   transition: all 0.4s ease-in-out;
   padding: 60px 20px 60px 20px;
+  z-index: 1;
 }
 
 .collapse {
